@@ -18,7 +18,7 @@
   }
   .name p{
     font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 4.5rem;
     color: #fff;
     text-transform:capitalize;
@@ -31,7 +31,7 @@
   .link a{
     color: #fff;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     background-color: transparent;
   }
@@ -84,11 +84,11 @@ hr{
  }
 
 .section1 strong{
-font-size: 4rem;
-font-family: Arial, Helvetica, sans-serif;
-text-shadow: 0 0 5px rgb(0,0,0,0.5);
-margin-left: 5%;
-text-align: center;
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 0 0 5px rgb(0,0,0,0.5);
+    margin-left: 5%;
+    text-align: center;
 }
 
 /* section1 end */
@@ -117,7 +117,7 @@ text-align: center;
     color: #fff;
     border-right: 5px solid rgb(253, 4, 4);
     border-bottom: 2px solid rgb(172, 243, 5);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     border-radius: 20px;
     font-size: 3.5rem;
@@ -126,7 +126,7 @@ text-align: center;
 .section2leftimg p{
     margin-top: -60px;
     text-shadow: 0 0 1rem rgb(0,0,0,0.5);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     text-shadow: 10px;
@@ -140,7 +140,6 @@ text-align: center;
 
 .section2rightfirstimg{
     margin-bottom: 25px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section2rightimg img, .threeboximg img{
@@ -156,21 +155,20 @@ text-align: center;
 .section2rightimg h3,.threeboximg h3 strong{
     margin: 10px;
     margin-left: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .section2rightimg p,.threeboximg p{
     padding: 0 10px 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .section2rightimg h3, .threeboximg h3 strong, .section2rightimg p, .threeboximg p{
-    font-family: Arial, Helvetica, sans-serif;
     display: none;
 }
 
 #rajapara{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: none;
 }
 /* section2 end */
@@ -182,19 +180,19 @@ text-align: center;
 .caption h1{
     margin-bottom: -4px;
     letter-spacing: 0.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .caption p{
     margin-bottom: -40px;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .top a{
     width: 100px;
     height: 20px;
     background-color: rgb(238, 5, 5);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .sec3{
@@ -354,7 +352,7 @@ footer #up a:hover{
        background-color:#fff;
        margin-block: 4px;
        border-radius: 4px;
-       transition: transform .5s, .35s; 
+       transition: transform .5s, .50s; 
     }
 
     .hamburger:hover .link a{
@@ -392,7 +390,7 @@ footer #up a:hover{
         font-weight: 600;
         text-align: left;
         letter-spacing: 0.1rem;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         line-height: 2.3rem;
     }
 
@@ -415,7 +413,7 @@ footer #up a:hover{
 
     .section1 p{
         text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Average', serif;
         font-size: 1.5rem;
     }
     /* section1 end */
