@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 html{
-  font-family: 'Average', serif;
+  font-family: 'Inter', sans-serif;
 }
 body{
     margin-top: 100px;
 }
 
-/* navigation start */
+/* navigation start */ 
 .navigation{
     padding: 8px 0;
     border-radius: 0%;
@@ -206,6 +206,7 @@ body{
       text-align: justify;
       text-indent: 3rem;
       font-size: 1.2rem;
+      font-family: 'Inter', sans-serif;
     }
   }
 
