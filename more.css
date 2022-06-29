@@ -1,473 +1,235 @@
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
-/* html{
-  font-family: 'Rubik Wet Paint', cursive;
-} */
 body{
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-/* navigation start */ 
+/* navigation start */
 .navigation{
-    padding: 8px 0;
-    border-radius: 0%;
-    background-color: rgb(207, 62, 8);
-    position: fixed;
-  }
+  padding: 8px 0;
+  border-radius: 0%;
+  background-color: rgb(207, 62, 8);
+  position: fixed;
+}
 
-  .nav-container{
-    padding: 0%;
-  }
-  .name p{
-    font-weight: 600;
-    font-family: 'Ubuntu', sans-serif;
+.nav-container{
+  padding: 0%;
+}
+.name p{
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 4.5rem;
+  color: #fff;
+  text-transform:capitalize;
+}
+
+.name a:hover{
+    text-decoration: none;
+}
+
+.link a{
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+.link>li>a:hover{
+   background-color: transparent;
+   color: rgb(9, 104, 158);
+}
+
+.hamburger{
+    display: none;
+}
+/* navigation end */
+
+header h1{
+  color: black;
+  font-size: 4.3rem;
+  line-height: 6rem;
+}
+
+.maincontainer{
+  padding: 0%;
+}
+
+#heading{
+  display: none;
+}
+.record p{
+  font-family: 'Average', serif;
+  font-size: 1.7rem;
+}
+main{
+  margin-top: -20px;
+}
+
+footer{
+  height: 110px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+footer #up a{
+  background-color: rgb(231, 77, 6);
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.5s;
+  font-family: 'Inter', sans-serif;
+}
+
+footer #up a:hover{
+  text-decoration: none;
+  background-color: rgb(6, 112, 126);
+}
+
+@media only screen and (max-width:992px){
+  header h1{
     font-size: 4.5rem;
-    color: #fff;
-    text-transform:capitalize;
+    line-height:5rem;
+  }
+}
+
+@media only screen and (max-width:768px){
+  /* navigation start */
+  body{
+    margin-top: 40px;
+  }
+  .navigation{
+    height: 35px;
+    background-color:rgb(207, 62, 8);
+    position:fixed;
+  }
+  
+  .navigation .name p{
+    font-size: 3.2rem;
+    padding: 0%;
+    margin-top: -10px;
+    float: left;
+    font-family: 'Inter', sans-serif;
+  }
+      
+  .nav-container{
+    padding: 0% 15px;
+  }
+  
+  .link{
+    width: 100vw;
+    margin: 0px 0 0 15%;
+    text-align: left;
+    background-color: rgba(10, 10, 10, 0.884);
+    display: none;
+    position: relative;
+    top: -8px;
+  }
+  
+  .link li{
+    border-bottom: 1px solid rgba(119, 115, 115, 0.514);
   }
 
-  .name a:hover{
-      text-decoration: none;
+  .link li a{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+      
+.link>li>a:active{
+  background-color: rgb(0, 119, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+  
+.hamburger{
+  display: block;
+  background-color: transparent;
+  padding: 5px 7px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: -53px 0px 0 0;
+  float: right;
+}
+  
+.hamburger .line{
+  display: block;
+  text-align: right;
+  width: 20px;
+  height: 3px;
+  background-color:#fff;
+  margin-block: 4px;
+  border-radius: 4px;
+  transition: transform .5s, .35s; 
+}
+  
+  .hamburger:hover .link a{
+     display: block;
+    /* margin: -15px 0 0 52%; */
   }
-
-  .link a{
-    color: #fff;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    background-color: transparent;
+  
+  .hamburger.active .line:nth-child(1){
+    top: 7px;
+    transform: rotate(45deg);
+    position: relative;
   }
-
-  .link>li>a:hover{
-     background-color: transparent;
-     color: rgb(9, 104, 158);
+  
+  .hamburger.active .line:nth-child(2){
+    top: 7px;
+    opacity: 0;
+    position: relative;
+      }
+  
+  .hamburger.active .line:nth-child(3){
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 7px;
   }
-
-  .hamburger{
-      display: none;
-  }
-  /* navigation end */
 
   header h1{
     color: black;
-    font-size: 4.3rem;
-    line-height: 6rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
   }
 
-  .maincontainer{
-    padding: 0%;
-  }
-
-  #heading{
-    display: none;
-  }
-  .record p{
-    font-family: 'Average', serif;
-    font-size: 1.7rem;
-    color: black;
-  }
-  main{
-    margin-top: -20px;
-  }
-
-  footer{
-    height: 110px;
-    background-color: black;
-    margin-top: 50px;
-  }
-
-  footer #up a{
-    background-color: rgb(231, 77, 6);
-    padding: 10px 20px;
-    color: #fff;
-    font-weight: 600;
-    transition: all 0.5s;
-    font-family: 'Ubuntu', sans-serif;
-  }
-
-  footer #up a:hover{
-    text-decoration: none;
-    background-color: rgb(6, 112, 126);
-  }
-
-  @media only screen and (max-width:992px){
-    header h1{
-      font-size: 4.5rem;
-      line-height:5rem;
-    }
-  }
-
-  @media only screen and (max-width:768px){
-    /* navigation start */
-    body{
-      margin-top: 40px;
-    }
-    .navigation{
-      height: 35px;
-      background-color:rgb(207, 62, 8);
-      position:fixed;
-    }
-    
-    .navigation .name p{
-      font-size: 3.2rem;
-      padding: 0%;
-      margin-top: -10px;
-      float: left;
-    }
-        
-    .nav-container{
-      padding: 0% 15px;
-    }
-    
-    .link{
-      width: 100vw;
-      margin: 0px 0 0 15%;
-      text-align: left;
-      background-color: rgba(10, 10, 10, 0.884);
-      display: none;
-      position: relative;
-      top: -8px;
-    }
-    
-    .link li{
-      border-bottom: 1px solid rgba(119, 115, 115, 0.514);
-    }
-
-    .link li a{
-      font-size: 1.5rem;
-  }
-        
-    .link>li>a:active{
-      background-color: rgb(0, 119, 255);
-      color: rgb(255, 255, 255);
-      border-radius: 20px;
-        }
-    
-    .hamburger{
-      display: block;
-      background-color: transparent;
-      padding: 5px 7px;
-      border-radius: 20px;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      margin: -53px 0px 0 0;
-      float: right;
-    }
-    
-    .hamburger .line{
-      display: block;
-      text-align: right;
-      width: 20px;
-      height: 3px;
-      background-color:#fff;
-      margin-block: 4px;
-      border-radius: 4px;
-      transition: transform .5s, .35s; 
-    }
-    
-    .hamburger:hover .link a{
-       display: block;
-      /* margin: -15px 0 0 52%; */
-    }
-    
-    .hamburger.active .line:nth-child(1){
-      top: 7px;
-      transform: rotate(45deg);
-      position: relative;
-    }
-    
-    .hamburger.active .line:nth-child(2){
-      top: 7px;
-      opacity: 0;
-      position: relative;
-        }
-    
-    .hamburger.active .line:nth-child(3){
-      transform: rotate(-45deg);
-      position: relative;
-      bottom: 7px;
-    }
-
-    header h1{
-      color: black;
-      font-size: 2.5rem;
-      line-height: 4rem;
-    }
-
-    .record h1{
-      font-size: 2rem;
-    }
-
-    .record p{
-      text-align: justify;
-      text-indent: 3rem;
-      font-size: 1.2rem;
-      font-family: 'Inter', sans-serif;
-    }
-  }
-
-  @media only screen and (max-width: 432px){
-
-    header h1{
-      color: black;
-      font-size: 2.2rem;
-      line-height: 3.2rem;
-    }
-
-    @media only screen and (max-width: 385px){
-      header h1{
-        color: black;
-        font-size: 2rem;
-        line-height: 2.5rem;
-      }
-    }
-    @media only screen and (max-width: 350px){
-      #heading{
-        display: block;
-      }
-      #heading1{
-        display: none;
-      }
-    }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* html{
-  font-family: 'Rubik Wet Paint', cursive;
-} */
-body{
-    margin-top: 100px;
-}
-
-/* navigation start */ 
-.navigation{
-    padding: 8px 0;
-    border-radius: 0%;
-    background-color: rgb(207, 62, 8);
-    position: fixed;
-  }
-
-  .nav-container{
-    padding: 0%;
-  }
-  .name p{
-    font-weight: 600;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4.5rem;
-    color: #fff;
-    text-transform:capitalize;
-  }
-
-  .name a:hover{
-      text-decoration: none;
-  }
-
-  .link a{
-    color: #fff;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+  .record h1{
     font-size: 2rem;
-    background-color: transparent;
   }
 
-  .link>li>a:hover{
-     background-color: transparent;
-     color: rgb(9, 104, 158);
+  .record p{
+    text-align: justify;
+    text-indent: 3rem;
+    font-size: 1.2rem;
   }
+}
 
-  .hamburger{
-      display: none;
-  }
-  /* navigation end */
+@media only screen and (max-width: 432px){
 
   header h1{
     color: black;
-    font-size: 4.3rem;
-    line-height: 6rem;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
   }
 
-  .maincontainer{
-    padding: 0%;
-  }
-
-  #heading{
-    display: none;
-  }
-  .record p{
-    font-family: 'Lato', sans-serif;
-    font-size: 5rem;
-    color: black;
-  }
-  main{
-    margin-top: -20px;
-  }
-
-  footer{
-    height: 110px;
-    background-color: black;
-    margin-top: 50px;
-  }
-
-  footer #up a{
-    background-color: rgb(231, 77, 6);
-    padding: 10px 20px;
-    color: #fff;
-    font-weight: 600;
-    transition: all 0.5s;
-    font-family: 'Ubuntu', sans-serif;
-  }
-
-  footer #up a:hover{
-    text-decoration: none;
-    background-color: rgb(6, 112, 126);
-  }
-
-  @media only screen and (max-width:992px){
-    header h1{
-      font-size: 4.5rem;
-      line-height:5rem;
-    }
-  }
-
-  @media only screen and (max-width:768px){
-    /* navigation start */
-    body{
-      margin-top: 40px;
-    }
-    .navigation{
-      height: 35px;
-      background-color:rgb(207, 62, 8);
-      position:fixed;
-    }
-    
-    .navigation .name p{
-      font-size: 3.2rem;
-      padding: 0%;
-      margin-top: -10px;
-      float: left;
-    }
-        
-    .nav-container{
-      padding: 0% 15px;
-    }
-    
-    .link{
-      width: 100vw;
-      margin: 0px 0 0 15%;
-      text-align: left;
-      background-color: rgba(10, 10, 10, 0.884);
-      display: none;
-      position: relative;
-      top: -8px;
-    }
-    
-    .link li{
-      border-bottom: 1px solid rgba(119, 115, 115, 0.514);
-    }
-
-    .link li a{
-      font-size: 1.5rem;
-  }
-        
-    .link>li>a:active{
-      background-color: rgb(0, 119, 255);
-      color: rgb(255, 255, 255);
-      border-radius: 20px;
-        }
-    
-    .hamburger{
-      display: block;
-      background-color: transparent;
-      padding: 5px 7px;
-      border-radius: 20px;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      margin: -53px 0px 0 0;
-      float: right;
-    }
-    
-    .hamburger .line{
-      display: block;
-      text-align: right;
-      width: 20px;
-      height: 3px;
-      background-color:#fff;
-      margin-block: 4px;
-      border-radius: 4px;
-      transition: transform .5s, .35s; 
-    }
-    
-    .hamburger:hover .link a{
-       display: block;
-      /* margin: -15px 0 0 52%; */
-    }
-    
-    .hamburger.active .line:nth-child(1){
-      top: 7px;
-      transform: rotate(45deg);
-      position: relative;
-    }
-    
-    .hamburger.active .line:nth-child(2){
-      top: 7px;
-      opacity: 0;
-      position: relative;
-        }
-    
-    .hamburger.active .line:nth-child(3){
-      transform: rotate(-45deg);
-      position: relative;
-      bottom: 7px;
-    }
-
+  @media only screen and (max-width: 385px){
     header h1{
       color: black;
-      font-size: 2.5rem;
-      line-height: 4rem;
-    }
-
-    .record h1{
       font-size: 2rem;
-    }
-
-    .record p{
-      text-align: justify;
-      text-indent: 3rem;
-      font-size: 1.2rem;
-      font-family: 'Inter', sans-serif;
+      line-height: 2.5rem;
     }
   }
-
-  @media only screen and (max-width: 432px){
-
-    header h1{
-      color: black;
-      font-size: 2.2rem;
-      line-height: 3.2rem;
+  @media only screen and (max-width: 350px){
+    #heading{
+      display: block;
     }
-
-    @media only screen and (max-width: 385px){
-      header h1{
-        color: black;
-        font-size: 2rem;
-        line-height: 2.5rem;
-      }
-    }
-    @media only screen and (max-width: 350px){
-      #heading{
-        display: block;
-      }
-      #heading1{
-        display: none;
-      }
+    #heading1{
+      display: none;
     }
   }
 }
