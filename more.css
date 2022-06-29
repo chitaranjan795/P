@@ -63,10 +63,13 @@ header h1{
 #heading{
   display: none;
 }
-.record p{
-  font-family: 'Average', serif;
+.record q, .record p{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.7rem;
 }
+/* .record q{
+
+} */
 main{
   margin-top: -20px;
 }
