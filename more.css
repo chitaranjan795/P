@@ -4,9 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-  font-family: 'Inter', sans-serif;
-}
+/* html{
+  font-family: 'Rubik Wet Paint', cursive;
+} */
 body{
     margin-top: 100px;
 }
@@ -66,6 +66,7 @@ body{
     display: none;
   }
   .record p{
+    font-family: 'Rubik Wet Paint', cursive;
     font-size: 1.7rem;
     color: black;
   }
