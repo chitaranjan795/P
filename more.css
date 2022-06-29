@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 *{
     margin: 0;
     padding: 0;
@@ -235,7 +233,6 @@ body{
         display: none;
       }
     }
-=======
 
 *{
     margin: 0;
@@ -472,5 +469,5 @@ body{
         display: none;
       }
     }
->>>>>>> 45defdb6c26cd3a53cff92fc622ebd6558944830
   }
+}
