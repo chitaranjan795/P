@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
 }
 body{
   margin-top: 100px;
@@ -64,7 +63,7 @@ header h1{
   display: none;
 }
 .record q, .record p{
-  font-family: 'Sen', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.7rem;
 }
 /* .record q{
@@ -178,13 +177,13 @@ footer #up a:hover{
   }
   
   .hamburger.active .line:nth-child(1){
-    top: 7px;
+    /* top: 7px; */
     transform: rotate(45deg);
     position: relative;
   }
   
   .hamburger.active .line:nth-child(2){
-    top: 7px;
+    /* top: 7px; */
     opacity: 0;
     position: relative;
       }
@@ -192,7 +191,7 @@ footer #up a:hover{
   .hamburger.active .line:nth-child(3){
     transform: rotate(-45deg);
     position: relative;
-    bottom: 7px;
+    /* bottom: 7px; */
   }
 
   header h1{
