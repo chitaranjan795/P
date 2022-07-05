@@ -6,7 +6,6 @@
 }
 body{
   margin-top: 100px;
-  font-family: 'Poppins', sans-serif;
 }
 
 /* navigation start */
@@ -35,7 +34,7 @@ body{
 .link a{
   color: #fff;
   font-weight: bold;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   background-color: transparent;
 }
@@ -65,11 +64,13 @@ header h1{
 }
 
 .record strong{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
 }
 .record q, .record p{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.7rem;
+  font: weight 1000px;
 }
 /* .record q{
 
@@ -90,7 +91,7 @@ footer #up a{
   color: #fff;
   font-weight: 600;
   transition: all 0.5s;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer #up a:hover{
@@ -121,7 +122,7 @@ footer #up a:hover{
     padding: 0%;
     margin-top: -10px;
     float: left;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
       
   .nav-container{
@@ -144,7 +145,7 @@ footer #up a:hover{
 
   .link li a{
     font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
       
 .link>li>a:active{
