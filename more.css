@@ -19,6 +19,7 @@ body{
 .nav-container{
   padding: 0%;
 }
+
 .name p{
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -53,7 +54,7 @@ header h1{
   color: black;
   font-size: 4.3rem;
   line-height: 6rem;
-  font-family: 'Telex', sans-serif;
+  font-family: 'Khula', sans-serif;
   font-weight: bold;
 }
 
@@ -66,11 +67,11 @@ header h1{
 }
 
 .record strong{
-  font-family: 'Telex', sans-serif;
+  font-family: 'Khula', sans-serif;
   font-size: 2.8rem;
 }
 .record q, .record p{
-  font-family: 'Telex', sans-serif;
+  font-family: 'Shippori Antique', sans-serif;
   font-size: 1.7rem;
   font: weight 1000px;
 }
@@ -102,10 +103,7 @@ footer #up a:hover{
 }
 
 @media only screen and (max-width:992px){
-  header h1{
-    font-size: 4.5rem;
-    line-height:5rem;
-  }
+ 
 }
 
 @media only screen and (max-width:768px){
@@ -204,35 +202,21 @@ footer #up a:hover{
 
   header h1{
     color: black;
-    font-size: 2.5rem;
     line-height: 4rem;
-  }
-
-  .record h1{
-    font-size: 2rem;
   }
 
   .record p{
     text-align: justify;
     text-indent: 3rem;
-    font-size: 1.2rem;
   }
 }
 
 @media only screen and (max-width: 432px){
 
-  header h1{
-    color: black;
-    font-size: 2.2rem;
-    line-height: 3.2rem;
-  }
+ 
 
   @media only screen and (max-width: 385px){
-    header h1{
-      color: black;
-      font-size: 2rem;
-      line-height: 2.5rem;
-    }
+ 
   }
   @media only screen and (max-width: 350px){
     #heading{
