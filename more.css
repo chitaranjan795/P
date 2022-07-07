@@ -71,9 +71,9 @@ header h1{
   font-size: 2.8rem;
 }
 .record q, .record p{
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Shippori Antique', sans-serif;
   font-size: 1.7rem;
-  font-weight: 500;
+  font: weight 1000px;
 }
 /* .record q{
 
