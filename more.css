@@ -123,12 +123,9 @@ footer #up a:hover{
     position:fixed;
     padding: 0%;
   }
-  
-  .navbar-brand .name span{
-    padding: 0%;
-  }
+
   .navigation .name p{
-    font-size: 3.2rem;
+    font-size: 4rem;
     padding: 0%;
     float: left;
     font-family: 'Poppins', sans-serif;
@@ -229,6 +226,10 @@ footer #up a:hover{
     line-height: 4rem;
   }
 
+  #heading{
+    font-size: 85%;
+  }
+
   .record p{
     text-align: justify;
     text-indent: 3rem;
@@ -238,6 +239,9 @@ footer #up a:hover{
  @media only screen and (max-width: 638px){
   body{
     margin-top: 5rem;
+  }
+  .navigation .name p{
+    font-size: 3.7rem;
   }
   #heading{
     display: block;
