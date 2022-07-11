@@ -1,29 +1,28 @@
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  background-color: rgb(194, 194, 194);
-}
-
 /* navigation start */
 .navigation{
-  padding: 8px 0;
+  border-radius: 0%;
   background-color: rgb(207, 62, 8);
   position: fixed;
+  height: fit-content;
 }
+
 .nav-container{
   padding: 0%;
 }
+
 .name a{
   font-weight: 600;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 4.5rem;
-  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 4.2rem;
   text-transform:capitalize;
+  color: #fff;
+  background-color: transparent;
 }
 
 .name a:hover{
@@ -32,48 +31,52 @@ body{
 
 .link a{
   color: #fff;
-  font-weight: bold;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2rem;
+  font-weight:600;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  background-color: transparent;
 }
 
 .link>li>a:hover{
    background-color: transparent;
-   color: rgb(9, 104, 158);
+   color: rgb(184, 182, 179);
+   transition: all 0.5s ease;
 }
-
 
 .hamburger{
     display: none;
 }
-
+/* navigation end */
 /* header start */
 header{
-    margin-top: 65px;
-    height: 38pc;
-    background-image: url("images/districtwall.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: scroll;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  box-sizing: content-box;
+  height: 38pc;
+  background-image: url("images/districtwall.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-header h3{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3.3rem;
-    color: #fff;
-    font-weight: 550;
-    text-shadow: 0 0 10px rgb(0,0,0,10);
+#heading{
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgb(0,0,0,10);
+}
+#heading1{
+  display: none;
 }
 /* header end */
 /* main start */
 
 .main{
     position: relative;
-    top: -70px;
+    top: -50px;
 }
 .card{
   position: relative;
@@ -121,7 +124,7 @@ header h3{
     border: 0.1em solid #fff;
     background-color: rgba(231, 68, 4, 0.616);
     padding: 9px 15px;
-    font-family: 'Ubuntu', sans-serif;
+
     letter-spacing: 0.25rem;
 }
 
@@ -161,11 +164,14 @@ footer{
 
 footer #up a{
   background-color: rgb(231, 77, 6);
-  padding: 10px 20px;
+  padding: 6px 12px;
   color: #fff;
   font-weight: 600;
   transition: all 0.5s;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0rem;
 }
 
 footer #up a:hover{
@@ -176,15 +182,14 @@ footer #up a:hover{
 /* footer end */
 @media only screen and (max-width:992px){
 
+  html{
+    font-size: 55%;
+  }
   body{
       background-color: #fff;
   }
-  header h3{
-      text-align: left;
-      font-size: 2.9rem;
-  }
   .detailes{
-      opacity: 1;
+    opacity: 1;
   }
   .card .detailes{
     background-color: rgba(20, 22, 22, 0.514);
@@ -208,53 +213,59 @@ footer #up a:hover{
 
 }
 @media only screen and (max-width:768px){
+  html{
+    font-size: 55%;
+  }
+
+  body{
+    box-sizing: content-box;
+  }
   /* navigation start */
-.navigation{
+  .navigation{
     height: 35px;
     background-color:rgb(207, 62, 8);
     position:fixed;
-}
-
-.name a{
-    font-size: 3rem;
-}
-  
-.navigation .name p{
-    font-size: 3.2rem;
     padding: 0%;
-    margin-top: -10px;
-    float: left;
-}
-      
-.nav-container{
-    padding: 0% 15px;
-}
-  
-.link{
-  width: 100vw;
-  margin: 0px 0 0 15%;
-  text-align: left;
-  background-color: rgba(10, 10, 10, 0.884);
-  display: none;
-  position: relative;
-  top: -8px;
-}
+  }
 
- .link li{
-     border-bottom: 1px solid rgba(119, 115, 115, 0.514);
- }
- 
- .link li a{
-  font-size: 1.5rem;
-}
+  .navigation .name a{
+    font-size: 4rem;
+    padding: 0%;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+  }
       
-.link>li>a:active{
-    background-color: rgb(0, 119, 255);
+  .nav-container{
+    padding: 0% 15px;
+  }
+  
+  .link{
+    width: 100vw;
+    margin-left: 15%;
+    text-align: left;
+    background-color: rgba(10, 10, 10, 0.884);
+    display: none;
+    position: relative;
+    top: -8px;
+  }
+  
+  .link li{
+    border-bottom: 1px solid rgba(119, 115, 115, 0.514);
+  }
+
+  .link li a{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .2rem;
+  }
+      
+  .link>li>a:active{
+    background-color: rgb(66, 68, 70);
     color: rgb(255, 255, 255);
     border-radius: 20px;
   }
   
-.hamburger{
+  .hamburger{
     display: block;
     background-color: transparent;
     padding: 5px 7px;
@@ -262,72 +273,109 @@ footer #up a:hover{
     border: none;
     outline: none;
     cursor: pointer;
-    margin: -53px 0px 0 0;
+    margin: -42px 0px 0 0;
     float: right;
-}
-  
-.hamburger .line{
+    text-align: left;
+  }
+
+  .hamburger .line{
     display: block;
-    text-align: right;
     width: 20px;
     height: 3px;
     background-color:#fff;
     margin-block: 4px;
     border-radius: 4px;
-    transition: transform .5s, .35s; 
-}
+    transition: all .5s ease; 
+  }
   
-.hamburger:hover .link a{
-    display: block;
-}
-  
-.hamburger.active .line:nth-child(1){
-    top: 7px;
-    transform: rotate(45deg);
-    position: relative;
-}
-  
-.hamburger.active .line:nth-child(2){
-    top: 7px;
-    opacity: 0;
-    position: relative;
-}
-  
-.hamburger.active .line:nth-child(3){
-    transform: rotate(-45deg);
-    position: relative;
-    bottom: 7px;
-}
-/* navigation end */
-/* header start */
-header{
-  margin-top: auto;
-  height: 500px;
-}
-header h3{
-    font-size: 2.3rem;
-} 
-/* header end */
-/* main start */
-.detailes{
-    opacity: 1;
-}
+  .hamburger:hover .link a{
+     display: block;
+  }
 
-.card .detailes{
-  background-color: rgba(20, 22, 22, 0.514);
-  opacity: 1;
-}
+  .hamburger .line:nth-child(1){
+    width: 3rem;
+  }
+
+  .hamburger .line:nth-child(2){
+    width: 2.2rem;
+  }
+
+  .hamburger .line:nth-child(3){
+    width: 1.4rem;
+  }
+  
+  .hamburger.active .line:nth-child(1){
+    top: .6rem;
+    width: 3.2rem;
+    transform: rotate(40deg);
+    position: relative;
+    background-color: rgb(34, 36, 35);
+  }
+  
+  .hamburger.active .line:nth-child(2){
+    opacity: 0;   
+    position: relative;
+  }
+  
+  .hamburger.active .line:nth-child(3){
+    transform: rotate(-40deg);
+    position: relative;
+    bottom: .8rem;
+    width: 3.2rem;
+    background-color: rgb(35, 36, 35);
+  }
+  /* navigatin end */
+  /* header start */
+  header{
+    margin-top: auto;
+    height: 500px;
+  }
+  #heading{
+    display: none;
+  }
+  #heading1{
+    display: block;
+    color: #fff;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 0 0 10px rgb(0,0,0,10);
+    text-align: left;
+  }
+  /* header end */
+  /* main start */
+  .detailes{
+    opacity: 1;
+  }
+
+  .card .detailes{
+    background-color: rgba(20, 22, 22, 0.514);
+    opacity: 1;
+  }
 
 .card>.detailes> a{
-  font-size: 1.1rem;
-}
-
-.card>.detailes> button{
     font-size: 1.5rem;
-}
-/* main start */
-.district .leftcol, .district .rightcol, .district .middlecol, .tabletleftcol, .tabletrightcol{
-  padding: 0%;
+  }
+
+  .card>.detailes> button{
+    font-size: 1.5rem;
+  }
+  /* main start */
+  .district .leftcol, .district .rightcol, .district .middlecol, .tabletleftcol, .tabletrightcol{
+    padding: 0%;
+  }
+
 }
 
+@media only screen and (max-width:407px){
+  html{
+    font-size: 47%;
+    box-sizing: content-box;
+  }
+
+  .navigation{
+    height: 1rem;
+  }
 }

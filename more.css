@@ -10,7 +10,6 @@ body{
 
 /* navigation start */
 .navigation{
-  padding: .3rem 0;
   border-radius: 0%;
   background-color: rgb(207, 62, 8);
   position: fixed;
@@ -35,14 +34,15 @@ body{
 .link a{
   color: #fff;
   font-weight:600;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 1.8rem;
   background-color: transparent;
 }
 
 .link>li>a:hover{
    background-color: transparent;
-   color: rgb(9, 104, 158);
+   color: rgb(192, 191, 188);
+   transition: all 0.5s ease;
 }
 
 .hamburger{
@@ -96,11 +96,14 @@ footer{
 
 footer #up a{
   background-color: rgb(231, 77, 6);
-  padding: 10px 20px;
+  padding: 6px 12px;
   color: #fff;
   font-weight: 600;
   transition: all 0.5s;
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0rem;
 }
 
 footer #up a:hover{
@@ -115,7 +118,6 @@ footer #up a:hover{
 }
 
 @media only screen and (max-width:768px){
-  /* navigation start */
   html{
     font-size: 55%;
   }
@@ -123,6 +125,7 @@ footer #up a:hover{
   body{
     margin-top: 7rem;
   }
+  /* navigation start */
   .navigation{
     height: 35px;
     background-color:rgb(207, 62, 8);
@@ -187,7 +190,6 @@ footer #up a:hover{
   margin-block: 4px;
   border-radius: 4px;
   transition: all .5s ease; 
-  /* opacity: 1; */
 }
   
   .hamburger:hover .link a{
@@ -226,7 +228,7 @@ footer #up a:hover{
     width: 3.2rem;
     background-color: rgb(35, 36, 35);
   }
-
+/* navigatin end */
   header h1{
     color: black;
     line-height: 4rem;
