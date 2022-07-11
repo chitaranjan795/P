@@ -54,7 +54,7 @@ header h1{
   color: black;
   font-size: 4.3rem;
   line-height: 6rem;
-  font-family: 'Khula', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
 }
 
@@ -64,6 +64,12 @@ header h1{
 
 #heading{
   display: none;
+}
+
+hr{
+  color: black;
+  margin-top: 0.5rem;
+  /* margin: 0 auto; */
 }
 
 .record strong{
@@ -78,11 +84,6 @@ header h1{
 
 .record p{
   margin-top: -10px;
-}
-
-.record q{
-  font-family: 'Shippori Antique', sans-serif;
-  font-size: 1.6rem;
 }
 
 main{
@@ -247,6 +248,10 @@ footer #up a:hover{
     text-indent: 3rem;
     margin-top: -10px;
   }
+
+  .record q{
+    font-size: 1.5rem;
+  }
 }
 
  @media only screen and (max-width: 638px){
@@ -259,6 +264,7 @@ footer #up a:hover{
   #heading{
     display: block;
     font-size: 3.5rem;
+    font-family: 'Inter', sans-serif;
   }
   #heading1{
     display: none;
