@@ -110,6 +110,7 @@ border-radius: 5px;
   font-weight: bold;
   text-align: center;
   letter-spacing: 0.1rem;
+  font-family: 'Inter', sans-serif;
   transition: all 0.3s;
 }
 
@@ -125,7 +126,6 @@ border-radius: 5px;
   border: 0.1em solid #fff;
   background-color: rgba(231, 68, 4, 0.616);
   padding: 7px 13px;
-  font-family: 'Inter', sans-serif;
   letter-spacing: 0.25rem;
 }
 
