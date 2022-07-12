@@ -195,6 +195,9 @@ footer #up a:hover{
   .detailes{
     opacity: 1;
   }
+  .detailes a{
+    font-family: 'Poppins', sans-serif;
+  }
   .card .detailes{
     background-color: rgba(20, 22, 22, 0.514);
     opacity: 1;
@@ -359,7 +362,8 @@ footer #up a:hover{
     opacity: 1;
   }
 
-.card>.detailes> a{
+  .card>.detailes> a{
+   font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
   }
 
@@ -383,6 +387,7 @@ footer #up a:hover{
     height: 1rem;
   }
   .detailes a{
+    font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
   }
 }
