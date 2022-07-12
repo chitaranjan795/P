@@ -267,6 +267,10 @@
   .R h1{
     display: none;
  }
+
+ .footrow a{
+  font-family: 'Shippori Antique', sans-serif;
+ }
  
 @media only screen and (max-width:992px){
     header h1{
@@ -435,7 +439,7 @@
     .section1 p{
         text-align: justify;
         font-family: 'Average', serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     /* section1 end */
     /* section2 start */
@@ -455,7 +459,7 @@
     .section2leftimg p{
         margin-top: -60px;
         text-shadow: 0 0 1rem rgb(0,0,0,0.5);
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-weight: bold;
         text-shadow: 10px;
         text-indent: 7rem;
@@ -554,6 +558,10 @@
     font-family: 'Satisfy', cursive;
     letter-spacing: 0.8rem;
   }
+
+  .footrow a{
+    font-family: 'Shippori Antique', sans-serif;
+   }
 }
 
 @media only screen and (max-width:562px){
