@@ -161,36 +161,36 @@ footer #up a:hover{
   .link li a{
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
-}
+  }
       
-.link>li>a:active{
-  background-color: rgb(66, 68, 70);
-  color: rgb(255, 255, 255);
-  border-radius: 20px;
-}
+  .link>li>a:active{
+    background-color: rgb(66, 68, 70);
+    color: rgb(255, 255, 255);
+    transition: all 0.10s
+  }
   
-.hamburger{
-  display: block;
-  background-color: transparent;
-  padding: 5px 7px;
-  border-radius: 20px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: -42px 0px 0 0;
-  float: right;
-  text-align: left;
-}
+  .hamburger{
+    display: block;
+    background-color: transparent;
+    padding: 5px 7px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: -42px 0px 0 0;
+    float: right;
+    text-align: left;
+  }
 
-.hamburger .line{
-  display: block;
-  width: 20px;
-  height: 3px;
-  background-color:#fff;
-  margin-block: 4px;
-  border-radius: 4px;
-  transition: all .5s ease; 
-}
+  .hamburger .line{
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color:#fff;
+    margin-block: 4px;
+    border-radius: 4px;
+    transition: all .5s ease; 
+  }
   
   .hamburger:hover .link a{
      display: block;
@@ -228,7 +228,7 @@ footer #up a:hover{
     width: 3.2rem;
     background-color: rgb(35, 36, 35);
   }
-/* navigatin end */
+  /* navigatin end */
   header h1{
     color: black;
     line-height: 4rem;

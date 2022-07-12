@@ -26,7 +26,7 @@
 }
 
 .name a:hover{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .link a{
@@ -35,17 +35,16 @@
   font-family: 'Inter', sans-serif;
   font-size: 1.8rem;
   background-color: transparent;
-  z-index: -1;
 }
 
 .link>li>a:hover{
-   background-color: transparent;
-   color: rgb(184, 182, 179);
-   transition: all 0.5s ease;
+  background-color: transparent;
+  color: rgb(184, 182, 179);
+  transition: all 0.5s ease;
 }
 
 .hamburger{
-    display: none;
+  display: none;
 }
 /* navigation end */
 /* header start */
@@ -252,7 +251,6 @@ footer #up a:hover{
     display: none;
     position: relative;
     top: -8px;
-    z-index: -1;
   }
   
   .link li{
@@ -268,7 +266,7 @@ footer #up a:hover{
   .link>li>a:active{
     background-color: rgb(66, 68, 70);
     color: rgb(255, 255, 255);
-    border-radius: 20px;
+    transition: all 0.10s
   }
   
   .hamburger{

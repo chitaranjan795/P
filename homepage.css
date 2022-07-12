@@ -7,57 +7,60 @@
 
 /* navigation start */
 .navigation{
-    padding: 8px 0;
     border-radius: 0%;
     background-color: rgb(207, 62, 8);
     position: fixed;
+    height: fit-content;
   }
-
+  
   .nav-container{
     padding: 0%;
   }
-  .name p{
+  
+  .name a{
     font-weight: 600;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4.5rem;
-    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 4.2rem;
     text-transform:capitalize;
+    color: #fff;
+    background-color: transparent;
   }
-
+  
   .name a:hover{
       text-decoration: none;
   }
-
+  
   .link a{
     color: #fff;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
+    font-weight:600;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
     background-color: transparent;
   }
-
+  
   .link>li>a:hover{
      background-color: transparent;
-     color: rgb(9, 104, 158);
+     color: rgb(184, 182, 179);
+     transition: all 0.5s ease;
   }
-
+  
   .hamburger{
       display: none;
   }
 
-/* navigation end */
+  /* navigation end */
 
-/* header start */
-header{
+  /* header start */
+  header{
     width: 100vw;
     height: 820px;
     background-image: url("images/2ndwallpaper.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     padding: 0%;
-}
+  }
 
-header h1{
+  header h1{
     height: 750px;
     color: #fff;
     font-size: 3.3em;
@@ -69,47 +72,47 @@ header h1{
     line-height: 6rem;
     letter-spacing: 0.7rem;
     font-weight: 300;
- }
-hr{
-   width: 150px;
-   margin: 0 auto;
-   margin-top: -300px;
-}
+  }
+  hr{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: -300px;
+  }
 
-/* section1 start */
- .section1{
+  /* section1 start */
+  .section1{
     margin-top: 50px;
     text-align: justify;
     font-family: 'Average', serif;
- }
+  }
 
-.section1 strong{
+  .section1 strong{
     font-size: 4rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     text-shadow: 0 0 5px rgb(0,0,0,0.5);
     margin-left: 5%;
     text-align: center;
-}
+  }
 
 /* section1 end */
 /* section2 start */
-.section2{
+  .section2{
     width: 100vw;
     padding: 60px 0px;
     margin-top: 30px;
     background:linear-gradient(45deg, burlywood 10%, rgb(94, 167, 167) 50%, rgb(168, 145, 93) 100%);
-}
+  }
 
-.section2container{
+  .section2container{
     padding: 0%;
-}
+  }
 
-.section2leftimg img{
+  .section2leftimg img{
     border-radius: 10px;
     position: relative;
-}
+  }
 
-.section2leftimg h1{
+  .section2leftimg h1{
     width: 130px;
     position: relative;
     top: -60px;
@@ -117,26 +120,26 @@ hr{
     color: #fff;
     border-right: 5px solid rgb(253, 4, 4);
     border-bottom: 2px solid rgb(172, 243, 5);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     text-align: center;
     border-radius: 20px;
     font-size: 3.5rem;
-}
+  }
 
-.section2leftimg p{
+  .section2leftimg p{
     margin-top: -60px;
     text-shadow: 0 0 1rem rgb(0,0,0,0.5);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     text-shadow: 10px;
     text-indent: 10rem;
     text-align: justify;
-}
+  }
 
-.section2leftimg #rajapara{
+  .section2leftimg #rajapara{
     text-align: justify;
-}
+  }
 
 .section2rightfirstimg{
     margin-bottom: 25px;
@@ -155,12 +158,12 @@ hr{
 .section2rightimg h3,.threeboximg h3 strong{
     margin: 10px;
     margin-left: 5px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .section2rightimg p,.threeboximg p{
     padding: 0 10px 10px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .section2rightimg h3, .threeboximg h3 strong, .section2rightimg p, .threeboximg p{
@@ -168,7 +171,7 @@ hr{
 }
 
 #rajapara{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     display: none;
 }
 /* section2 end */
@@ -180,19 +183,19 @@ hr{
 .caption h1{
     margin-bottom: -4px;
     letter-spacing: 0.2rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .caption p{
     margin-bottom: -40px;
     font-size: 2rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
 }
 .top a{
     width: 100px;
     height: 20px;
     background-color: rgb(238, 5, 5);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 .sec3{
@@ -203,29 +206,32 @@ hr{
 }
 /* carousel end */
 
-footer{
-    padding-bottom: 30px;
-    background-color: black;
-}
-
  footer .row2 .sr h1, footer .row2 .R h1{
     font-size: 6rem;
     font-family: 'Satisfy', cursive;
     letter-spacing: 0.8rem;
   }
-footer #up a{
+  footer{
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  footer #up a{
     background-color: rgb(231, 77, 6);
-    padding: 10px 20px;
+    padding: 6px 12px;
     color: #fff;
     font-weight: 600;
     transition: all 0.5s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer #up a:hover{
-  text-decoration: none;
-  background-color: rgb(6, 112, 126);
-}
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0rem;
+  }
+  
+  footer #up a:hover{
+    text-decoration: none;
+    background-color: rgb(6, 112, 126);
+  }
 
 .row1 :nth-child(1){
     padding: 0%;
@@ -291,92 +297,108 @@ footer #up a:hover{
 }
 @media only screen and (max-width:768px){
 /* navigation start */
-    .navigation{
-        height: 35px;
-        background-color:rgb(207, 62, 8);
-        position:fixed;
-    }
+  .navigation{
+    height: 35px;
+    background-color:rgb(207, 62, 8);
+    position:fixed;
+    padding: 0%;
+  }
 
-    .navigation .name p{
-        font-size: 3.2rem;
-        padding: 0%;
-        margin-top: -10px;
-        float: left;
-    }
-    
-    .nav-container{
-        padding: 0% 15px;
-    }
+  .navigation .name p{
+    font-size: 4rem;
+    padding: 0%;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+  }
+      
+  .nav-container{
+    padding: 0% 15px;
+  }
+  
+  .link{
+    width: 100vw;
+    margin-left: 15%;
+    text-align: left;
+    background-color: rgba(10, 10, 10, 0.884);
+    display: none;
+    position: relative;
+    top: -8px;
+  }
+  
+  .link li{
+    border-bottom: 1px solid rgba(119, 115, 115, 0.514);
+  }
 
-    .link{
-        width: 100vw;
-        margin: 0px 0 0 15%;
-        text-align: left;
-        background-color: rgba(10, 10, 10, 0.884);
-        display: none;
-        position: relative;
-        top: -8px;
-    }
+  .link li a{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+      
+  .link>li>a:active{
+    background-color: rgb(66, 68, 70);
+    color: rgb(255, 255, 255);
+    transition: all 0.10s
+  }
+  
+  .hamburger{
+    display: block;
+    background-color: transparent;
+    padding: 5px 7px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: -42px 0px 0 0;
+    float: right;
+    text-align: left;
+  }
 
-    .link li a{
-        font-size: 1.5rem;
-    }
+  .hamburger .line{
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color:#fff;
+    margin-block: 4px;
+    border-radius: 4px;
+    transition: all .5s ease; 
+  }
+  
+  .hamburger:hover .link a{
+     display: block;
+  }
 
-    .link li{
-        border-bottom: 1px solid rgba(119, 115, 115, 0.514);
-    }
-    
-    .link>li>a:active{
-        background-color: rgb(0, 119, 255);
-        color: rgb(255, 255, 255);
-        border-radius: 20px;
-     }
+  .hamburger .line:nth-child(1){
+    width: 3rem;
+  }
 
-     .hamburger{
-        display: block;
-        background-color: transparent;
-        padding: 5px 7px;
-        border-radius: 20px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        margin: -53px 0px 0 0;
-        float: right;
-    }
+  .hamburger .line:nth-child(2){
+    width: 2.2rem;
+  }
 
-    .hamburger .line{
-       display: block;
-       text-align: right;
-       width: 20px;
-       height: 3px;
-       background-color:#fff;
-       margin-block: 4px;
-       border-radius: 4px;
-       transition: transform .5s, .50s; 
-    }
-
-    .hamburger:hover .link a{
-        display: block;
-        /* margin: -15px 0 0 52%; */
-    }
-
-    .hamburger.active .line:nth-child(1){
-       top: 7px;
-       transform: rotate(45deg);
-       position: relative;
-    }
-
-    .hamburger.active .line:nth-child(2){
-       top: 7px;
-       opacity: 0;
-       position: relative;
-    }
-
-    .hamburger.active .line:nth-child(3){
-       transform: rotate(-45deg);
-       position: relative;
-       bottom: 7px;
-    }
+  .hamburger .line:nth-child(3){
+    width: 1.4rem;
+  }
+  
+  .hamburger.active .line:nth-child(1){
+    top: .6rem;
+    width: 3.2rem;
+    transform: rotate(40deg);
+    position: relative;
+    background-color: rgb(34, 36, 35);
+  }
+  
+  .hamburger.active .line:nth-child(2){
+    opacity: 0;   
+    position: relative;
+  }
+  
+  .hamburger.active .line:nth-child(3){
+    transform: rotate(-40deg);
+    position: relative;
+    bottom: .8rem;
+    width: 3.2rem;
+    background-color: rgb(35, 36, 35);
+  }
     /* navigation end */
     /* header start */
     header{
@@ -390,7 +412,7 @@ footer #up a:hover{
         font-weight: 600;
         text-align: left;
         letter-spacing: 0.1rem;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Shippori Antique', sans-serif;
         line-height: 2.3rem;
     }
 
