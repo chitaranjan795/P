@@ -161,6 +161,7 @@ hr{
 footer{
     height: 110px;
     background-color: black;
+    padding-bottom: 50px;
 }
 
 footer #up a{
