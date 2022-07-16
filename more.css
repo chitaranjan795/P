@@ -287,9 +287,18 @@ footer #up a:hover{
     #heading{
       font-size: 100%;
     }
+    .navigation .name p{
+      font-size: 3.4rem;
+  }
   }
   @media only screen and (max-width: 350px){
     html{
       font-size: 50%;
     }
- }
+    .navigation .name p{
+      font-size: 3.4rem;
+    }
+    .link li a{
+      font-size: 1.5rem;
+    }
+  }

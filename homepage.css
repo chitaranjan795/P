@@ -239,7 +239,7 @@
   }
   .footrow{
     padding: 0;
-    border-bottom: 2px solid honeydew;
+    border-bottom: 1px solid rgb(116, 121, 116);
   }
 
   .L1 h2, .L2 h2{
@@ -251,7 +251,7 @@
   .L1 a, .L2 a{
     color: rgb(215, 230, 11);
     text-decoration: none;
-    transition: all 0.2s;
+    /* transition: all 0.2s; */
     font-size: 1.7rem;
   }
   .L a:hover{
@@ -562,11 +562,34 @@
   .footrow a{
     font-family: 'Shippori Antique', sans-serif;
    }
+   footer p{
+    font-size: 1.2rem;
+   }
 }
 
 @media only screen and (max-width:562px){
   html{
     font-size: 47%;
+  }
+  .hamburger.active .line:nth-child(1){
+    top: .6rem;
+    width: 3.2rem;
+    transform: rotate(42deg);
+    position: relative;
+    background-color: rgb(34, 36, 35);
+  }
+  
+  .hamburger.active .line:nth-child(2){
+    opacity: 0;   
+    position: relative;
+  }
+  
+  .hamburger.active .line:nth-child(3){
+    transform: rotate(-42deg);
+    position: relative;
+    bottom: .8rem;
+    width: 3.2rem;
+    background-color: rgb(35, 36, 35);
   }
   .navigation .name p{
     padding: 0%;

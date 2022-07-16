@@ -384,8 +384,20 @@ footer #up a:hover{
   .navigation{
     height: 1rem;
   }
+
   .detailes a{
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
   }
+}
+
+@media only screen and (max-width:350px){
+
+  .navigation .name p{
+      font-size: 3.4rem;
+  }
+  .link li a{
+    font-size: 1.5rem;
+}
+
 }
